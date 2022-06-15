@@ -1,4 +1,4 @@
-# api_test_demo
+# api_pytest_demo
 * environment -- python 3.8, Pytest, Request, Allure
 
 # directory introduction
