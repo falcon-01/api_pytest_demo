@@ -1,0 +1,6 @@
+2022-06-13 18:38:47,954 INFO [root] [test_template.py (test_add:37] - add function-status_code is: 201
+2022-06-13 18:38:50,103 INFO [root] [test_template.py (test_get:52] - get function-status_code is: 200
+2022-06-13 18:38:52,149 INFO [root] [test_template.py (test_get:52] - get function-status_code is: 200
+2022-06-13 19:48:40,785 INFO [root] [test_template.py (test_add:37] - add function-status_code is: 201
+2022-06-13 19:48:42,941 INFO [root] [test_template.py (test_get:52] - get function-status_code is: 200
+2022-06-13 19:48:45,085 INFO [root] [test_template.py (test_get:52] - get function-status_code is: 200
