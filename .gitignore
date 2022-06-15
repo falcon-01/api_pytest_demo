@@ -1,5 +1,5 @@
 venv/
 report
-log/
+/log
 .idea
 .pytest_cache

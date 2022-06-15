@@ -4,7 +4,6 @@ environment -- python 3.8, Pytest, Request, Allure
 # directory introduction
 api -- template api code which can be called by other module
 data -- test data management
-log -- logging file location
 report -- test report file
 scripts -- test scripts' directory
 tools -- tools directory
