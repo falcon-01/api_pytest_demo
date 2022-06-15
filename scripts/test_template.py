@@ -6,7 +6,6 @@ from tools.get_log import GetLog
 from tools.read_file import read_json
 import allure
 
-
 log = GetLog.get_log()
 
 
