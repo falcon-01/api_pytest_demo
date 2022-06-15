@@ -1,14 +1,14 @@
 # api_test_demo
-environment -- python 3.8, Pytest, Request, Allure
+* environment -- python 3.8, Pytest, Request, Allure
 
 # directory introduction
-api -- template api code which can be called by other module
-data -- test data management
-report -- test report file
-scripts -- test scripts' directory
-tools -- tools directory
-app.py -- code for executing all the tests
-pytest.ini -- config file of pytest
+* api -- template api code which can be called by other module
+* data -- test data management
+* report -- test report file
+* scripts -- test scripts' directory
+* tools -- tools directory
+* app.py -- code for executing all the tests
+* pytest.ini -- config file of pytest
 
 # instructions on running the tests
 1. Set up python 3.8 and allure on your local machine (The steps of installing allure can be referenced in "https://www.csdn.net/tags/MtTaMg3sOTM0ODIzLWJsb2cO0O0O.html")
