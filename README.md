@@ -11,7 +11,7 @@
 * pytest.ini -- config file of pytest
 
 # instructions on running the tests
-1. Set up python 3.8 and allure on your local machine (The steps of installing allure can be referenced in "https://www.csdn.net/tags/MtTaMg3sOTM0ODIzLWJsb2cO0O0O.html")
+1. Set up python 3.8 and allure on your local machine (FYI, the steps of installing allure can be referenced in "https://www.csdn.net/tags/MtTaMg3sOTM0ODIzLWJsb2cO0O0O.html")
 2. Open the root of the project on an IDE (VSCode or Pycharm)
 3. Open Terminal, run "pip install -r requirements.txt" (Need to install pip first if it was not installed)
 4. This project has been configured to run sample tests on a free online testing api "jsonplaceholder.typicode.com"
