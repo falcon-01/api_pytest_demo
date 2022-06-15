@@ -1,5 +1,6 @@
 venv/
 report
-*.log*
+*.log.*
+*.log
 .idea
 .pytest_cache
