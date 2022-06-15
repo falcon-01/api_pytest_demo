@@ -3,6 +3,7 @@ import app
 import os
 from pathlib import Path
 
+
 class GetLog:
     logger = None
 
