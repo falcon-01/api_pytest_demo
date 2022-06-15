@@ -1,0 +1,91 @@
+{
+  "test_add": [
+    {
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "headers": {
+        "HOST": "jsonplaceholder.typicode.com",
+        "Connection": "keep-alive",
+        "Accept": "*/*",
+        "Content-Type": "application/json; charset=UTF-8"
+      },
+      "body": {
+        "userId": 1,
+        "title": "foo",
+        "body": "bar"
+      },
+      "expect": 201
+    }
+  ],
+  "test_update": [
+    {
+      "url": "https://jsonplaceholder.typicode.com/posts/1",
+      "headers": {
+        "HOST": "jsonplaceholder.typicode.com",
+        "Connection": "keep-alive",
+        "Accept": "*/*",
+        "Content-Type": "application/json; charset=UTF-8"
+      },
+      "body": {
+        "id": 1,
+        "title": "foo",
+        "body": "bar",
+        "userId": 1
+      },
+      "expect": 200
+    }
+  ],
+  "test_get": [
+    {
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "headers": {
+        "HOST": "jsonplaceholder.typicode.com",
+        "Connection": "keep-alive",
+        "Accept": "*/*",
+        "Content-Type": "application/json"
+      },
+      "params": {
+        "userId": 1,
+        "id": 101
+      },
+      "expect": 200
+    },
+    {
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "headers": {
+        "HOST": "jsonplaceholder.typicode.com",
+        "Connection": "keep-alive",
+        "Accept": "*/*",
+        "Content-Type": "application/json"
+      },
+      "params": {
+        "userId": 1,
+        "id": 9
+      },
+      "expect": 200
+    }
+  ],
+  "test_delete": [
+    {
+      "url": "https://jsonplaceholder.typicode.com/posts/1",
+      "headers": {
+        "HOST": "jsonplaceholder.typicode.com",
+        "Connection": "keep-alive",
+        "Accept": "*/*",
+        "Content-Type": "application/json; charset=UTF-8"
+      },
+      "uid": 1,
+      "expect": 200
+    },
+    {
+      "url": "https://jsonplaceholder.typicode.com/posts/1",
+      "headers": {
+        "HOST": "jsonplaceholder.typicode.com",
+        "Connection": "keep-alive",
+        "Accept": "*/*",
+        "Content-Type": "application/json; charset=UTF-8"
+      },
+      "uid": 2,
+      "expect": 200
+    }
+  ]
+}
